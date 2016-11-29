@@ -1,0 +1,17 @@
+frames 50
+basename ate
+push
+move 250 250 0
+scale 2 2 2 s
+rotate y 360 r
+sphere 0 0 0 100
+pop 
+push
+move 250 250 0
+scale 2 2 2 j
+rotate x 360 h
+torus 0 0 0 100 100
+vary s 0 49 0 1
+vary r 0 49 0 1
+vary h 0 49 0 1
+vary j 0 49 0 1 
